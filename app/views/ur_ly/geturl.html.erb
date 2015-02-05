@@ -1,0 +1,9 @@
+<h1> Welcome to PURLy</h1>
+
+<%= form_for [@url] do |f| %>
+ <%= f.label :longurl %>
+ <%= f.text_field :longurl %>
+ 
+
+<%= f.submit 'Save' %>
+<% end %>
